@@ -12,7 +12,7 @@ PRODUCT_BRAND := bn
 PRODUCT_DEVICE := encore
 PRODUCT_MODEL := NookColor
 PRODUCT_MANUFACTURER := bn
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=encore BUILD_ID=FRG83D BUILD_DISPLAY_ID=GRH78C BUILD_FINGERPRINT=google/passion/passion/mahimahi:2.2.1/FRG83D/75603:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.2.1 FRG83D 75603 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=encore BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRI40 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/encore
 
@@ -25,10 +25,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC1-encore
+            ro.modversion=CyanogenMod-7.0.0-RC2-encore
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC1-encore-KANG
+            ro.modversion=CyanogenMod-7.0.0-RC2-encore-KANG
     endif
 endif
 

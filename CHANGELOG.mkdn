@@ -31,7 +31,7 @@ Maintainers:
 * Glacier (MT4G): Zinx, Kmobs
 * Click (Tattoo): KalimochoAz
 * Blade (San Francisco, Sapo A5, others): Tom Giordano and Jacob Crawley
-* Encore (Nook Color): dalingrin, cvpcs, nemith, cicada
+* Encore (Nook Color): dalingrin, cvpcs, nemith, cicada, fattire
 
 Translators:
 ------------
@@ -42,9 +42,11 @@ Translators:
 * Simplified Chinese: comercy, Qian Zheng
 * Russian: OlegKrikun, Pavel Volkov
 * Portuguese: Eduardo Martins, Ricardo Pinho
-* Spanish: PeRiJeY, KalimochoAz
+* Portuguese-Brazil: Gustavo Rosa
+* Spanish: PeRiJeY, KalimochoAz, Chuckycrx
 * Catalan: Oriol Pellicer
 * Finnish: Antti Leukkunen
+* Swedish: Patrik Kullman
 * Polish: Maciej Rozbicki
 * Korean: Inseok Lee
 * Traditional Chinese: Ladios Jonquil
@@ -52,7 +54,7 @@ Translators:
 CHANGELOG
 ---------
 ### 7.0.0
-* Common: Android 2.3.2 (Gingerbread) - Google
+* Common: Android 2.3.3 (Gingerbread) - Google
 * Common: Fixes and changes from AOSP master - Various
 * Common: ClockworkMod Recovery 3.0: Koush, Cyanogen, Zinx
 * Common: Themes engine - T-Mobile
@@ -71,6 +73,7 @@ CHANGELOG
 * Common: Workaround for unknown phone number - Jiri Tyr
 * Common: Trackball answer/hangup - Juan Rodriguez
 * Common: CMParts reorganization - Robert Burns
+* Common: View ChangeLog via CMParts (System) - Wes Garner
 * Common: Optional screen on/off animations - Diogo Ferreira
 * Common: New browser incognito mode - optedoblivion
 * Common: New trackball/trackpad wake - Zinx, Cyanogen
@@ -79,10 +82,11 @@ CHANGELOG
 * Common: Customizable overscroll - arcee
 * Common: Torch cleanup - defer
 * Common: 2D compositor backwards compatibility - arcee
-* Common: OpenGL backwards compatibility - Zinx, Cyanogen
+* Common: OpenGL backwards compatibility - Zinx, Cyanogen, Sileht, ezterry
 * Common: SMS templates using gestures - Riccardo Ciovati
 * Common: Phone Goggles - David Bidorff
 * Common: Option to always show battery percentage on lockscreen - Robert Burns
+* Common: Option to show music controls with compatible headset connection - Wes Garner
 * Common: CPU frequency/scaling control in CMParts - Robert Ramiega
 * Common: Option to pause/play music with camera button - cvpcs
 * Common: Allow SIP User-Agent configuration - arcee
@@ -94,9 +98,16 @@ CHANGELOG
 * Common: New lockscreen styles - Rotary Revamped (default) and Lense - Sven Dawitz, Stefano Pignataro
 * Common: Customizable app launcher on rotary lockscreen - Sven Dawitz
 * Common: Now playing and album art on lockscreen - kmobs
-* Common: GPS fixes - CodeAurora
+* Common: GPS fixes - CodeAurora, arcee
 * Common: Breakfast/Brunch - arcee
+* Common: Statusbar battery percentage with mini icon - Sven Dawitz, design by Jazz Kalsi
+* Common: SMS split for braindead carriers - Mike Wielgosz
+* Common: MMS user-defined custom vibrate - Wes Garner
+* Common: CMParts cleanup - Sven Dawitz
+* Common: Notification profiles - Martin Long
+* Common: TI wl12xx FM radio reverse engineering - Michael A. Reid
 * Espresso/Legend: Enabled native WiFi tethering - Cyanogen, OMAPZoom.org
+* Legend/Liberty/Buzz/Click: Enabled FM Radio - Alexander Hofbauer (libaudio patch)
 * Z71: Enabled MPEG4/AAC video recording - arcee
 * Z71: Enabled native WiFi tethering - arcee
 * Passion/Bravo/BravoC/Supersonic/Inc: Kernel 2.6.37 - Google, Cyanogen, defer, Kali-, toastcfh, slayher
@@ -104,7 +115,8 @@ CHANGELOG
 * Vision/Glacier/Ace: Unified kernel - HTC, Cyanogen, Zinx, Kali-, defer
 * Vision/Glacier/Ace: Fix FM radio on 2.3 - Zinx
 * Vision: Only install WiFi calling on TMUS devices - attn1
-* Espresso/Legend/Liberty: Unified kernel - HTC, Cyanogen, attn1, jznomoney, Alex Hofbauer
+* Espresso/Legend/Liberty: Unified kernel - HTC, Cyanogen, attn1, jznomoney, Alexander Hofbauer
+* Supersonic: WiMAX support - HTC, Shinzul, toastcfh, shift, #teamwin, Cyanogen
 * ONE: Enabled native WiFi tethering - arcee
 
 ### 6.1.3
