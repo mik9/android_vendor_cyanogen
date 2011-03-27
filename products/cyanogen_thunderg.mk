@@ -10,7 +10,7 @@ $(call inherit-product, device/lge/thunderg/device_thunderg.mk)
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
 # Include FM-Radio stuff (does not work at this moment)
-#$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 PRODUCT_BRAND := LGE
 PRODUCT_DEVICE := thunderg
