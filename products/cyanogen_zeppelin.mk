@@ -26,10 +26,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-CLIQXT
+            ro.modversion=CyanogenMod-7.0.2-RC0-CLIQXT
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-CLIQXT-KANG
+            ro.modversion=CyanogenMod-7.0.2-RC0-CLIQXT-KANG
     endif
 endif
 
@@ -38,6 +38,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=zeppelin TARGET_DEVICE=zeppelin BUI
 
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
+PRODUCT_COPY_FILES += \
+    device/motorola/zeppelin/sysctl.conf:system/etc/sysctl.conf
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/zeppelin
 
