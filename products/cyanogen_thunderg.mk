@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
         MagicSmokeWallpapers \
         VisualizationWallpapers
 
-CYANOGEN_NIGHTLY := true
+#CYANOGEN_NIGHTLY := true
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
@@ -34,10 +34,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-Thunderg
+            ro.modversion=CyanogenMod-7.0.2-Thunderg
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC0-Thunderg-mik
+            ro.modversion=CyanogenMod-7.0.2-Thunderg-mik
     endif
 endif
 
