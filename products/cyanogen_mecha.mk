@@ -12,13 +12,16 @@ PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := mecha
 PRODUCT_MODEL := ThunderBolt
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_mecha BUILD_ID=FRG83D BUILD_DISPLAY_ID=GRI40 BUILD_FINGERPRINT=verizon_wwe/htc_mecha/mecha/mecha:2.2.1/FRG83D/338893:user/release-keys PRIVATE_BUILD_DESC="1.12.605.6 CL338893 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_mecha BUILD_ID=FRG83D BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=verizon_wwe/htc_mecha/mecha/mecha:2.2.1/FRG83D/338893:user/release-keys PRIVATE_BUILD_DESC="1.12.605.6 CL338893 release-keys"
 
 # Extra Mecha overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mecha
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
+
+# Add AicBootFix
+PRODUCT_PACKAGES += AicBootFix
 
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)

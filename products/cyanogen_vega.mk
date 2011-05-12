@@ -1,7 +1,8 @@
 $(call inherit-product, device/advent/vega/vega.mk)
 
-# skips themes and keeps the resulting rom tiny so it fits on /system/ with all languages included
-PRODUCT_SPECIFIC_DEFINES += SKIP_THEMES=true
+# skips themes and wallpaper to keep the resulting rom tiny so it fits on /system/ with all languages included
+PRODUCT_SKIP_THEMES=true
+PRODUCT_SKIP_WALLPAPERS=true
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
@@ -14,7 +15,7 @@ PRODUCT_BRAND := advent
 PRODUCT_DEVICE := vega
 PRODUCT_MODEL := Vega
 PRODUCT_MANUFACTURER := Advent
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Vega BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRI40 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=Vega BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
 
 # Extra overlay
 PRODUCT_PACKAGE_OVERLAYS += \
