@@ -14,7 +14,7 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 PRODUCT_NAME := cyanogen_zeppelin
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := zeppelin
-PRODUCT_MODEL := CLIQ XT
+PRODUCT_MODEL := MB501
 PRODUCT_MANUFACTURER := Motorola
 
 #
@@ -26,10 +26,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC0-CLIQXT
+            ro.modversion=CyanogenMod-7.1.0-RC1-CLIQXT
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC0-CLIQXT-KANG
+            ro.modversion=CyanogenMod-7.1.0-RC1-CLIQXT-KANG
     endif
 endif
 
