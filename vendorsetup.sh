@@ -9,6 +9,7 @@ add_lunch_combo cyanogen_crespo-eng
 add_lunch_combo cyanogen_crespo4g-eng
 add_lunch_combo cyanogen_desirec-eng
 add_lunch_combo cyanogen_dream_sapphire-eng
+add_lunch_combo cyanogen_droid2-eng
 add_lunch_combo cyanogen_encore-eng
 add_lunch_combo cyanogen_espresso-eng
 add_lunch_combo cyanogen_galaxysmtd-eng
@@ -17,6 +18,7 @@ add_lunch_combo cyanogen_glacier-eng
 add_lunch_combo cyanogen_hero-eng
 add_lunch_combo cyanogen_heroc-eng
 add_lunch_combo cyanogen_inc-eng
+add_lunch_combo cyanogen_jordan-eng
 add_lunch_combo cyanogen_legend-eng
 add_lunch_combo cyanogen_leo-eng
 add_lunch_combo cyanogen_liberty-eng
