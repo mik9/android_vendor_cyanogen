@@ -1,5 +1,6 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_ace.mk \
+    $(LOCAL_DIR)/cyanogen_anzu.mk \
     $(LOCAL_DIR)/cyanogen_blade.mk \
     $(LOCAL_DIR)/cyanogen_bravo.mk \
     $(LOCAL_DIR)/cyanogen_bravoc.mk \
@@ -14,6 +15,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_encore.mk \
     $(LOCAL_DIR)/cyanogen_espresso.mk \
     $(LOCAL_DIR)/cyanogen_fascinatemtd.mk \
+    $(LOCAL_DIR)/cyanogen_hallon.mk \
     $(LOCAL_DIR)/cyanogen_hero.mk \
     $(LOCAL_DIR)/cyanogen_heroc.mk \
     $(LOCAL_DIR)/cyanogen_inc.mk \
@@ -26,6 +28,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_leo.mk \
     $(LOCAL_DIR)/cyanogen_liberty.mk \
     $(LOCAL_DIR)/cyanogen_mecha.mk \
+    $(LOCAL_DIR)/cyanogen_mesmerizemtd.mk \
     $(LOCAL_DIR)/cyanogen_morrison.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
     $(LOCAL_DIR)/cyanogen_p990.mk \
@@ -33,12 +36,14 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_passion.mk \
     $(LOCAL_DIR)/cyanogen_shadow.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
+    $(LOCAL_DIR)/cyanogen_showcasemtd.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1002.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1004.mk \
     $(LOCAL_DIR)/cyanogen_smb_a1011.mk \
     $(LOCAL_DIR)/cyanogen_smb_b9701.mk \
     $(LOCAL_DIR)/cyanogen_speedy.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
+    $(LOCAL_DIR)/cyanogen_thunderg.mk \
     $(LOCAL_DIR)/cyanogen_u8220.mk \
     $(LOCAL_DIR)/cyanogen_vega.mk \
     $(LOCAL_DIR)/cyanogen_vibrantmtd.mk \
@@ -48,4 +53,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_z71.mk \
     $(LOCAL_DIR)/cyanogen_zeppelin.mk \
     $(LOCAL_DIR)/cyanogen_zero.mk \
-    $(LOCAL_DIR)/cyanogen_thunderg.mk
+    $(LOCAL_DIR)/cyanogen_zeus.mk
