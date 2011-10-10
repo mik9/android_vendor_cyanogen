@@ -19,9 +19,9 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=device/htc/click/kernel
 PRODUCT_NAME := cyanogen_click
 PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := click
-PRODUCT_MODEL := HTC click
+PRODUCT_MODEL := HTC Tattoo
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_click BUILD_ID=GRI40 BUILD_DISPLAY_ID=GRJ90 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_click BUILD_ID=GRI40 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
 
 # Add LDPI assets, in addition to MDPI
 PRODUCT_LOCALES += ldpi mdpi
@@ -42,9 +42,9 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-click
+            ro.modversion=CyanogenMod-7.1.0-click
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-click-KANG
+            ro.modversion=CyanogenMod-7.1.0-click-KANG
     endif
 endif

@@ -12,7 +12,7 @@ Follow http://twitter.com/cmsrc for commit-by-commit updates.
 Maintainers:
 ------------
 * Nexus One: Cyanogen
-* Nexus S: Koush
+* Nexus S: Koush, KalimochoAz
 * Droid: cvpcs, mtwebster, Koush
 * Dream/Sapphire: Sileht, Wes Garner, Cyanogen
 * Eris: Workshed, Conap
@@ -32,9 +32,9 @@ Maintainers:
 * Harmony (Malata smb_a1004/smb_a1011): arcee
 * Ace (Desire HD/Inspire 4G): Kali-, jznomoney, attn1
 * Glacier (MT4G): Zinx, Kmobs, cyanogen
-* Click (Tattoo): KalimochoAz
+* Click (Tattoo): KalimochoAz, Arne Coucheron
 * Blade (San Francisco, Sapo A5, others): Tom Giordano and Jacob Crawley
-* Encore (Nook Color): dalingrin, cvpcs, nemith, cicada, fattire
+* Encore (Nook Color): dalingrin, nemith, fattire
 * Speedy: toastcfh
 * Zeppelin (CLIQ XT/Quench): firesnatch, turl
 * Morrison (CLIQ/DEXT): ngiordano, dwagner, JassyCliq
@@ -50,6 +50,10 @@ Maintainers:
 * Xperia Arc (LT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Neo (MT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Play (R800i): Bin4ry,defer,jerpelea (FreeXperia team)
+* Droid2we (Droid2 Global): RevNumbers, x13thangelx
+* V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
+* Motus (Backflip) : j_r0dd, flavio_frow
+* Saga (Desire S): Nexx, SuperKid
 
 Translators:
 ------------
@@ -68,16 +72,18 @@ Translators:
 * Polish: Maciej Rozbicki
 * Korean: Inseok Lee
 * Traditional Chinese: Ladios Jonquil
+* Slovak: Juraj Janecek
+* Czech: Ondrej Zima
 
-CHANGELOG
+CHANGELOG (notable new features)
 ---------
 
-### 7.1.0-pre
-* Common: Android 2.3.5 (Google)
+### 7.1.0
+* Common: Android 2.3.7 (Google)
 * Common: Bluetooth mouse support - Scott Brady
 * Common: Improve notification swipe-to-clear - Evan Charlton
 * Common: Improve album-artist support in media scanner - Paul Crovella
-* Common: Profile improvements and bugfixes - Martin Long
+* Common: Profile improvements and bugfixes - Martin Long, Danny Baumann, Robert Burns
 * Common: RTL text improvements - Eyad Aboulouz, Eran Mizrahi
 * Common: Wake on volume key option - Sven Dawitz
 * Common: Support for revoking application permissions - Plamen K. Kosseff
@@ -105,11 +111,35 @@ CHANGELOG
 * Common: Add CM copyright noticies - arcee
 * Common: Skia/Zlib/libcore ARM optimizations - 0xlab
 * Common: Bluetooth tethering - Stéphane Konstantaropoulos
+* Common: Lockscreen widget alignment - Danesh Mondegarian
+* Common: Lockscreen calendar - David Morgan
+* Common: AVRCP 1.3 support - Qualcomm (bugfix by Danny Baumann)
+* Common: LED notification overhaul - Danny Baumann
+* Common: System-wide DNS cache - Google, SEMC
+* Common: Headset icon toggle - Cameron Pickett
+* Common: FM seek support - Emilio López, Tom Giordano
+* Common: Editable event fields in Contacts app - Danny Baumann
+* Common: Remove compromised CA from system certs - Guardian Project
+* Common: Mute camera shutter option - George Maizel
+* Common: Camera timer - Danesh Mondegarian
+* Common: "Mark all read" option in MMS - Vinod Surendran
+* Common: "eat" pushes fresh brunch/breakfast to device - Ricardo Cerqueira
+* Common: Customizable account color chip in Email - copolii
+* Common: "Rings" lockscreen - Valera Trubachev
+
 * Click, Motorola: Speed up photo recording - Emilio López
 * Click, Motorola: Add Geolocation to photo app - KalimochoAz
-* Vision/Glacier/Ace/Speedy/Vivo/Vivow: 2.6.35 kernel and updated userspace
+* Click: Upgraded kernel from HTC 2.6.29 to 2.6.35
+* HTC msm7x30: 2.6.35 kernel and updated userspace
 * Buzz: 2.6.35 kernel - Arne Coucheron
 * Bravo(c)/Vivo(w)/Ace/Liberty: On charge notification led - Richard Antony Burton
+* Crespo/Crespo4G: Kernel update 2.6.35.14 and more, voodoo implementation, BLN, BLX...
+* Encore: Update kernel from 2.6.29 to 2.6.32 - Dalingrin,Fattire,Verygreen
+* Encore: New GPU drivers and userspace libs
+* Encore: Adjustable clockspeed and voltage - Dalingrin
+* Encore: Backport 2.6.35 Bluetooth - Fattire
+* Encore: Working mem sleep
+* Encore: USB host support - Verygreen
 
 ### 7.0.3
 * Common: Don't allow packages with platform keys on user-controlled storage

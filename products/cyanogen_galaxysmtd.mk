@@ -15,7 +15,7 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := galaxysmtd
 PRODUCT_MODEL := GT-I9000
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ90 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys"
 
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
@@ -36,7 +36,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Add additional mounts
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.additionalmounts=/mnt/emmc
+    ro.additionalmounts=/mnt/emmc \
+    ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 
 #
 # Set ro.modversion
@@ -47,10 +48,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-GalaxyS
+            ro.modversion=CyanogenMod-7.1.0-GalaxyS
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-GalaxyS-KANG
+            ro.modversion=CyanogenMod-7.1.0-GalaxyS-KANG
     endif
 endif
 

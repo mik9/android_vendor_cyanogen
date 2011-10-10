@@ -26,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT15i BUILD_ID=3.0.1.A.0.145 BUILD_
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/anzu
 
 # Add the Torch app
-#PRODUCT_PACKAGES += Torch
+PRODUCT_PACKAGES += Torch
 
 
 # BCM FM radio
@@ -41,10 +41,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-XperiaArc-LT15i
+            ro.modversion=CyanogenMod-7.1.0-XperiaArc-LT15i
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-XperiaArc-LT15i-KANG
+            ro.modversion=CyanogenMod-7.1.0-XperiaArc-LT15i-KANG
     endif
 endif
 
