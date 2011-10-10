@@ -1,13 +1,13 @@
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common_full.mk)
-
 # Inherit AOSP device configuration for legend.
 $(call inherit-product, device/lge/thunderg/device_thunderg.mk)
+
+# Inherit some common cyanogenmod stuff.
+$(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
 # Include GSM stuff
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
-# Include FM-Radio stuff (does not work at this moment)
+# Include FM-Radio stuff
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 PRODUCT_BRAND := lge
@@ -23,11 +23,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
-    librs_jni
-
-# Publish that we support the live wallpaper feature.
-PRODUCT_COPY_FILES += \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+    librs_jni \
+    SystemTransparent
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/thunderg
 
@@ -37,10 +34,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Thunderg
+            ro.modversion=CyanogenMod-7.1.0-Thunderg
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Thunderg-KANG
+            ro.modversion=CyanogenMod-7.1.0-Thunderg-KANG
     endif
 endif
 
