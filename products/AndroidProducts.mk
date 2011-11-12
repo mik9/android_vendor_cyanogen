@@ -7,6 +7,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_buzz.mk \
     $(LOCAL_DIR)/cyanogen_captivatemtd.mk \
     $(LOCAL_DIR)/cyanogen_click.mk \
+    $(LOCAL_DIR)/cyanogen_coconut.mk \
+    $(LOCAL_DIR)/cyanogen_cooper.mk \
     $(LOCAL_DIR)/cyanogen_crespo.mk \
     $(LOCAL_DIR)/cyanogen_crespo4g.mk \
     $(LOCAL_DIR)/cyanogen_desirec.mk \
@@ -21,6 +23,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_hero.mk \
     $(LOCAL_DIR)/cyanogen_heroc.mk \
     $(LOCAL_DIR)/cyanogen_inc.mk \
+    $(LOCAL_DIR)/cyanogen_iyokan.mk \
     $(LOCAL_DIR)/cyanogen_jordan.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2att.mk \
@@ -37,11 +40,14 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_morrison.mk \
     $(LOCAL_DIR)/cyanogen_motus.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
+    $(LOCAL_DIR)/cyanogen_olympus.mk \
+    $(LOCAL_DIR)/cyanogen_p970.mk \
     $(LOCAL_DIR)/cyanogen_p990.mk \
     $(LOCAL_DIR)/cyanogen_p999.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
     $(LOCAL_DIR)/cyanogen_robyn.mk \
     $(LOCAL_DIR)/cyanogen_saga.mk \
+    $(LOCAL_DIR)/cyanogen_satsuma.mk \
     $(LOCAL_DIR)/cyanogen_shadow.mk \
     $(LOCAL_DIR)/cyanogen_shakira.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
@@ -53,10 +59,13 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_smultron.mk \
     $(LOCAL_DIR)/cyanogen_speedy.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
+    $(LOCAL_DIR)/cyanogen_tass.mk \
     $(LOCAL_DIR)/cyanogen_thunderg.mk \
     $(LOCAL_DIR)/cyanogen_v9.mk \
+    $(LOCAL_DIR)/cyanogen_u8150.mk \
     $(LOCAL_DIR)/cyanogen_u8220.mk \
     $(LOCAL_DIR)/cyanogen_urushi.mk \
+    $(LOCAL_DIR)/cyanogen_v9.mk \
     $(LOCAL_DIR)/cyanogen_vega.mk \
     $(LOCAL_DIR)/cyanogen_vibrantmtd.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
