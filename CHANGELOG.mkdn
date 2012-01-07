@@ -41,6 +41,7 @@ Maintainers:
 * Star (LG Optimus 2/G2x): arcee, cyanogen
 * Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
+* Epic (SPH-D700): Decad3nce, DRockstar, mkasick, noobnl, nullghost, Rodderik, UberPinguin, wispoffates
 * Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
 * Vivo (Incredible S): Kali-, attn1
 * Vivow (Incredible 2): Kali-, attn1
@@ -54,10 +55,14 @@ Maintainers:
 * V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 * Motus (Backflip) : j_r0dd, flavio_frow
 * Saga (Desire S): Nexx, SuperKid
+* LGE Optimus Black: arcee
+* LGE Optimus 3D: arcee
+* LGE Optimus Hub: arcee
+* LGE Optimus Pro: arcee
 
 Translators:
 ------------
-* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel
+* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel, Andreas Böhm
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
 * French: Sébastien Vaucher, David Girault, Tanguy Pruvot

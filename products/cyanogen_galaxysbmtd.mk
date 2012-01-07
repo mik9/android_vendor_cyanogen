@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for vibrantmtd.
-$(call inherit-product, device/samsung/vibrantmtd/full_vibrantmtd.mk)
+# Inherit AOSP device configuration for galaxysb.
+$(call inherit-product, device/samsung/galaxysbmtd/full_galaxysbmtd.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
@@ -10,23 +10,23 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_vibrantmtd
+PRODUCT_NAME := cyanogen_galaxysbmtd
 PRODUCT_BRAND := samsung
-PRODUCT_DEVICE := vibrantmtd
-PRODUCT_MODEL := SGH-T959
-PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys"
+PRODUCT_DEVICE := galaxysbmtd
+PRODUCT_MODEL := GT-I9000B
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9000B BUILD_ID=GINGERBREAD BUILD_FINGERPRINT=samsung/GT-I9000B/GT-I9000B:2.3.5/GINGERBREAD/XXJVT:user/release-keys PRIVATE_BUILD_DESC="GT-I9000B-user 2.3.5 GINGERBREAD XXJVT release-keys"
 
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-samsung
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_vibrantmtd_defconfig
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_galaxysb_defconfig
 
 # Extra galaxys overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrantmtd
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/galaxysbmtd
 
 # Add the FM app
-# PRODUCT_PACKAGES += FM
+PRODUCT_PACKAGES += FM
 
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -40,7 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Vibrant
+PRODUCT_RELEASE_NAME := GalaxyS_B
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
